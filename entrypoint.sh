@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ./scripts/setup.sh
 cp nginx.conf /etc/nginx/nginx.conf
 echo "/etc/nginx/app/conf/locations.conf"
