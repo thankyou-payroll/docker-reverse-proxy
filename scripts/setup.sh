@@ -29,7 +29,7 @@ touch "$LOCATIONS"
 source "$YAML_SCRIPT"
 source "$TEXT_REPLACE_SCRIPT"
 
-create_variables "$DIR/setup.yml";
+create_variables "$DIR/config/setup.yml";
 
 echo "Setting up configuration file for port $port"
 # for i in "${!entries__upstream[@]}"; do 
