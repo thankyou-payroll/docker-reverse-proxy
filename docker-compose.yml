@@ -1,26 +1,20 @@
 version: "3"
 services:
   app-1:
-    image: wouterm/helloworld
-    ports:
-      - 8080:80
+    build: ./example
     environment:
-      - MSG=App 1
+      - APP_NAME=App 1
   app-2:
-    image: wouterm/helloworld
-    ports:
-      - 8081:80
+    build: ./example
     environment:
-      - MSG=App 2
+      - APP_NAME=App 2
   app-3:
-    image: wouterm/helloworld
-    ports:
-      - 8082:80
+    build: ./example
     environment:
-      - MSG=App 3
+      - APP_NAME=App 3
   nginx:
     build: .
     ports:
-      - 8000:80
+      - 9000:80
     # volumes:
     # - ./templates/nginx.conf:/etc/nginx/nginx.conf:ro

@@ -1,8 +1,9 @@
 port: 80
 entries:
   - location: /
-    upstream: app-1:80
-  - location: /app-2
-    upstream: app-2:80
-  - location: /app-3
-    upstream: app-3:80
+    upstream: app-1:3000
+  - location: /app-2/
+    auth: true
+    upstream: app-2:3000
+  - location: /app-3/
+    upstream: app-3:3000

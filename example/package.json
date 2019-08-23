@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.18",
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-static": "^5.0.0"
+  }
+}
