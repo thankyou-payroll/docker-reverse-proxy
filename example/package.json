@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "esm": "^3.2.18",
-    "koa": "^2.7.0",
+    "koa": "^2.15.4",
     "koa-logger": "^3.2.0",
     "koa-static": "^5.0.0"
   }
